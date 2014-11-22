@@ -7,11 +7,11 @@ xkb_symbols "basic" {
 	key.type[Group1] = "FOUR_LEVEL";
 	key.type[Group2] = "TWO_LEVEL";
 
-	// Tab as Multi_key (Compose)
+	// Tab as Escape
 	// --------------------------------------------------------------
 	key  <TAB> {
-		[ 0xfd12,               0xfd12,               Multi_key,               ISO_Level5_Lock         ],
-		[ Multi_key,               NoSymbol                  ]
+		[ Escape,               Escape,               Escape,               Escape         ],
+		[ Escape,               Escape                  ]
 	};
 
 
@@ -81,11 +81,11 @@ xkb_symbols "basic" {
 		[ Prior,                   NoSymbol                  ]
 	};
 	key <AD02> {
-		[ f,                       F,                       underscore,              NoSymbol                ],
+		[ u,                       U,                       underscore,              NoSymbol                ],
 		[ BackSpace,               NoSymbol                  ]
 	};
 	key <AD03> {
-		[ u,                       U,                       bracketleft,             Greek_lambda            ],
+		[ l,                       L,                       bracketleft,             Greek_lambda            ],
 		[ Up,                      Up                        ]
 	};
 	key <AD04> {
@@ -93,7 +93,7 @@ xkb_symbols "basic" {
 		[ Delete,                  NoSymbol                  ]
 	};
 	key <AD05> {
-		[ z,                       Z,                       asciicircum,             Greek_omega             ],
+		[ g,                       G,                       asciicircum,             Greek_omega             ],
 		[ Next,                    NoSymbol                  ]
 	};
 
@@ -102,7 +102,7 @@ xkb_symbols "basic" {
 		[ NoSymbol,                NoSymbol                  ]
 	};
 	key <AD07> {
-		[ h,                       H,                       less,                    Greek_psi               ],
+		[ f,                       F,                       less,                    Greek_psi               ],
 		[ 7,                       NoSymbol                  ]
 	};
 	key <AD08> {
@@ -114,18 +114,18 @@ xkb_symbols "basic" {
 		[ 9,                       NoSymbol                  ]
 	};
 	key <AD10> {
-		[ q,                       Q,                       ampersand,               U03D5                   ],
+		[ v,                       V,                       ampersand,               U03D5                   ],
 		[ NoSymbol,                NoSymbol                  ]
 	};
 
 	key.type[Group1] = "FOUR_LEVEL";
 	key <AD11> {
-		[ Escape,                  Escape,                  U017F,                   Greek_finalsmallsigma   ],
+		[ q,                  Q,                  U017F,                   Greek_finalsmallsigma   ],
 		[ NoSymbol,                NoSymbol                  ]
 	};
 	key <AD12> {
-		[ XF86Launch0,             dead_tilde,              dead_stroke,             dead_psili              ],
-		[ NoSymbol,                NoSymbol                  ]
+		[ Backspace,             Backspace,              Backspace,             Backspace              ],
+		[ Backspace,                Backspace                  ]
 	};
 
 	// Middle row
@@ -139,44 +139,44 @@ xkb_symbols "basic" {
 
 	key.type[Group1] = "FOUR_LEVEL_SEMIALPHABETIC";
 	key <AC01> {
-		[ l,                       L,                       slash,                   NoSymbol                ],
+		[ a,                       A,                       slash,                   NoSymbol                ],
 		[ Home,                    NoSymbol                  ]
 	};
 	key <AC02> {
-		[ o,                       O,                       minus,                   Greek_iota              ],
+		[ r,                       R,                       minus,                   Greek_iota              ],
 		[ Left,                    Left                      ]
 	};
 	key <AC03> {
-		[ e,                       E,                       braceleft,               Greek_alpha             ],
+		[ s,                       S,                       braceleft,               Greek_alpha             ],
 		[ Down,                    Down                      ]
 	};
 	key <AC04> {
-		[ a,                       A,                       braceright,              Greek_epsilon           ],
+		[ t,                       T,                       braceright,              Greek_epsilon           ],
 		[ Right,                   Right                     ]
 	};
 	key <AC05> {
-		[ i,                       I,                       asterisk,                Greek_omicron           ],
+		[ d,                       D,                       asterisk,                Greek_omicron           ],
 		[ End,                     NoSymbol                  ]
 	};
 
 	key <AC06> {
-		[ n,                       N,                       question,                Greek_sigma             ],
+		[ h,                       H,                       question,                Greek_sigma             ],
 		[ period,                  NoSymbol                  ]
 	};
 	key <AC07> {
-		[ r,                       R,                       parenleft,               Greek_nu                ],
+		[ n,                       N,                       parenleft,               Greek_nu                ],
 		[ 4,                       NoSymbol                  ]
 	};
 	key <AC08> {
-		[ t,                       T,                       parenright,              Greek_rho               ],
+		[ e,                       E,                       parenright,              Greek_rho               ],
 		[ 5,                       NoSymbol                  ]
 	};
 	key <AC09> {
-		[ d,                       D,                       apostrophe,              Greek_tau               ],
+		[ i,                       I,                       apostrophe,              Greek_tau               ],
 		[ 6,                       NoSymbol                  ]
 	};
 	key <AC10> {
-		[ s,                       S,                       colon,                   Greek_delta             ],
+		[ o,                       O,                       colon,                   Greek_delta             ],
 		[ Escape,                  NoSymbol                  ]
 	};
 
@@ -197,7 +197,7 @@ xkb_symbols "basic" {
 	};
 	key.type[Group1] = "FOUR_LEVEL_SEMIALPHABETIC";
 	key <AB02> {
-		[ g,                       G,                       dollar,                  U03F5                   ],
+		[ z,                       Z,                       dollar,                  U03F5                   ],
 		[ NoSymbol,                NoSymbol                  ]
 	};
 	key <AB03> {
@@ -205,18 +205,18 @@ xkb_symbols "basic" {
 		[ bracketleft,             NoSymbol                  ]
 	};
 	key <AB04> {
-		[ j,                       J,                       asciitilde,              Greek_pi                ],
+		[ c,                       C,                       asciitilde,              Greek_pi                ],
 		[ bracketright,            NoSymbol                  ]
 	};
 	key.type[Group1] = "FOUR_LEVEL";
 	key <AB05> {
-		[ semicolon,               colon,                   grave,                   Greek_zeta              ],
+		[ colon,               semicolon,                   grave,                   Greek_zeta              ],
 		[ NoSymbol,                NoSymbol                  ]
 	};
 	key.type[Group1] = "FOUR_LEVEL_SEMIALPHABETIC";
 
 	key <AB06> {
-		[ v,                       V,                       plus,                    Greek_beta              ],
+		[ j,                       J,                       plus,                    Greek_beta              ],
 		[ 0,                       NoSymbol                  ]
 	};
 	key <AB07> {
@@ -224,7 +224,7 @@ xkb_symbols "basic" {
 		[ 1,                       NoSymbol                  ]
 	};
 	key <AB08> {
-		[ c,                       C,                       backslash,               Greek_beta              ],
+		[ slash,                       pipe,                       backslash,               Greek_beta              ],
 		[ 2,                       NoSymbol                  ]
 	};
 	key.type[Group1] = "FOUR_LEVEL";
