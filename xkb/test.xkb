@@ -2,6 +2,5 @@ xkb_keymap {
         xkb_keycodes  { include "evdev+aliases(qwerty)"};
         xkb_types     { include "complete"};
         xkb_compat    { include "complete"};
-        xkb_symbols   { include "pc+antibracket(basic)+inet(evdev)+capslock(escape)+compose(menu)"};
-        xkb_geometry  { include "typematrix(tm2030USB)"};
+        xkb_symbols   { include "pc+wuly(basic)"};
 };
