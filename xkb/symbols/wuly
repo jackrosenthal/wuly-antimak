@@ -82,11 +82,11 @@ xkb_symbols "basic" {
 	};
 	key <AD02> {
 		[ u,                       U,                       underscore,              NoSymbol                ],
-		[ BackSpace,               NoSymbol                  ]
+		[ Up,               NoSymbol                  ]
 	};
 	key <AD03> {
 		[ l,                       L,                       bracketleft,             Greek_lambda            ],
-		[ Up,                      Up                        ]
+		[ BackSpace,               Up                        ]
 	};
 	key <AD04> {
 		[ y,                       Y,                       bracketright,            Greek_chi               ],
@@ -140,19 +140,19 @@ xkb_symbols "basic" {
 	key.type[Group1] = "FOUR_LEVEL_SEMIALPHABETIC";
 	key <AC01> {
 		[ a,                       A,                       slash,                   NoSymbol                ],
-		[ Home,                    NoSymbol                  ]
+		[ Left,                    NoSymbol                  ]
 	};
 	key <AC02> {
 		[ r,                       R,                       minus,                   Greek_iota              ],
-		[ Left,                    Left                      ]
+		[ Down,                    Left                      ]
 	};
 	key <AC03> {
 		[ s,                       S,                       braceleft,               Greek_alpha             ],
-		[ Down,                    Down                      ]
+		[ Right,                    Down                      ]
 	};
 	key <AC04> {
 		[ t,                       T,                       braceright,              Greek_epsilon           ],
-		[ Right,                   Right                     ]
+		[ Home,                   Right                     ]
 	};
 	key <AC05> {
 		[ d,                       D,                       asterisk,                Greek_omicron           ],
