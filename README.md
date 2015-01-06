@@ -1,11 +1,25 @@
-# Antibracket
+# The WULY Antimak
 
-This is a keyboard layout designed to combine the ambition of Dvorak, practicality of Colemak and
-the punctuation of Neo.
+It's a keyboard layout.
 
-## Testing
+## Installation & Testing
 
-There is currently no way to integrate Antibracket into the main XKB repositories. For now, though,
-you can run:
+### Linux
 
-    xkbcomp -I$PWD/xkb xkb/test.xkb $DISPLAY
+To test:
+
+    git clone https://github.com/jackrosenthal/wuly-antimak && xkbcomp -I$PWD/wuly-antimak/xkb wuly-antimak/xkb/test.xkb $DISPLAY
+
+To install:
+
+    git clone https://github.com/jackrosenthal/wuly-antimak && sudo bash wuly-antimak/linux/install.sh
+
+### Windows
+
+Currently there is only an AHK script, but you don't need admin rights. Perfect for when you need to
+hop on a public computer.
+
+To use it, download windows/bin/wuly.exe from this repo and run it. Press both the left and right alt
+keys to exit.
+
+If you are using your own computer, you may want to have it run at startup (not sure how to do that.)
