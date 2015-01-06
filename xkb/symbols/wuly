@@ -210,7 +210,7 @@ xkb_symbols "basic" {
 	};
 	key.type[Group1] = "FOUR_LEVEL";
 	key <AB05> {
-		[ colon,               semicolon,                   grave,                   Greek_zeta              ],
+		[ semicolon,               semicolon,                   grave,                   Greek_zeta              ],
 		[ NoSymbol,                NoSymbol                  ]
 	};
 	key.type[Group1] = "FOUR_LEVEL_SEMIALPHABETIC";
