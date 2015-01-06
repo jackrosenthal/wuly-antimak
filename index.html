@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>The WULY Antimak by jackrosenthal</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/jackrosenthal/wuly-antimak">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>The WULY Antimak</h1>
+            <h2>Modifier-based keyboard layout inspired by Antibracket, Colemak, and a couple others.</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/jackrosenthal/wuly-antimak/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/jackrosenthal/wuly-antimak/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h2>
+<a id="installation--testing" class="anchor" href="#installation--testing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation &amp; Testing</h2>
+
+<h3>
+<a id="linux" class="anchor" href="#linux" aria-hidden="true"><span class="octicon octicon-link"></span></a>Linux</h3>
+
+<p>To test:</p>
+
+<pre><code>git clone https://github.com/jackrosenthal/wuly-antimak &amp;&amp; xkbcomp -I$PWD/wuly-antimak/xkb wuly-antimak/xkb/test.xkb $DISPLAY
+</code></pre>
+
+<p>To install:</p>
+
+<pre><code>git clone https://github.com/jackrosenthal/wuly-antimak &amp;&amp; sudo bash wuly-antimak/linux/install.sh
+</code></pre>
+
+<h3>
+<a id="windows" class="anchor" href="#windows" aria-hidden="true"><span class="octicon octicon-link"></span></a>Windows</h3>
+
+<p>Currently there is only an AHK script, but you don't need admin rights. Perfect for when you need to
+hop on a public computer.</p>
+
+<p>To use it, download windows/bin/wuly.exe from this repo and run it. Press both the left and right alt
+keys to exit.</p>
+
+<p>If you are using your own computer, you may want to have it run at startup (not sure how to do that.)</p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/jackrosenthal">jackrosenthal</a> can be found on <a href="https://github.com/jackrosenthal/wuly-antimak">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
