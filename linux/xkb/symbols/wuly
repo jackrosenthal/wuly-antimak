@@ -15,18 +15,6 @@ xkb_symbols "basic" {
 	};
 
 
-        // Unmap right shift for a while, I need to learn to use left shift more
-	key  <RTSH> {
-		[ NoSymbol,               NoSymbol,               NoSymbol,               NoSymbol         ],
-		[ NoSymbol,               NoSymbol                  ]
-	};
-        
-        // Do the same for backspace
-	key  <BKSP> {
-		[ NoSymbol,               NoSymbol,               NoSymbol,               NoSymbol         ],
-		[ NoSymbol,               NoSymbol                  ]
-	};
-
 	// Number row
 	// --------------------------------------------------------------
 	key <TLDE> {
