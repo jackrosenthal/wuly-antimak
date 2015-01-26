@@ -244,7 +244,7 @@ xkb_symbols "basic" {
 	// Space key
 	// --------------------------------------------------------------
 	key <SPCE> {
-		[ space,                   space,                   space,                   nobreakspace            ],
+		[ space,                   space,                   nobreakspace,                   nobreakspace            ],
 		[ space,                   space                    ]
 	};
 };
