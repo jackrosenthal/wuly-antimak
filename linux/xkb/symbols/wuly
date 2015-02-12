@@ -18,7 +18,7 @@ xkb_symbols "basic" {
 	// Number row
 	// --------------------------------------------------------------
 	key <TLDE> {
-		[ grave,                   asciitilde,              U21BB,                   U02DE                   ],
+		[ Caps_Lock,                   asciitilde,              U21BB,                   U02DE                   ],
 		[ NoSymbol,                NoSymbol                  ]
 	};
 
