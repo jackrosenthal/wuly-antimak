@@ -4,6 +4,7 @@ SC00F::Escape
 SC010::w
 +SC010::W
 SC028 & SC010::Send {"}
+SC028 & SC010::Send {PgUp}
 SC011::u
 +SC011::U
 SC028 & SC011::Send {_}
@@ -15,9 +16,11 @@ SC035 & SC012::Send {Backspace}
 SC013::y
 +SC013::Y
 SC028 & SC013::Send {]}
+SC035 & SC013::Send {Delete}
 SC014::g
 +SC014::G
 SC028 & SC014::Send {^}
+SC035 & SC014::Send {PgDn}
 SC015::x
 +SC015::X
 SC028 & SC015::Send {!}
@@ -38,7 +41,7 @@ SC019::v
 SC028 & SC019::Send {&}
 SC01A::q
 +SC01A::Q
-SC01B::Backspace
+SC01B::LControl
 
 SC03A::Tab
 SC01E::a
@@ -55,10 +58,12 @@ SC028 & SC020::Send {{}
 SC035 & SC020::Send {Right}
 SC021::t
 +SC021::T
-SC028 & SC021::Send {}} 
+SC028 & SC021::Send {}}
+SC035 & SC021::Send {Home}
 SC022::d
 +SC022::D
 SC028 & SC022::Send {*}
+SC035 & SC022::Send {End}
 SC023::h
 +SC023::H
 SC028 & SC023::Send {?}
