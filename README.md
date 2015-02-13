@@ -4,6 +4,8 @@ An ergonomic modifier based keyboard layout with Antibracket's symbols and numbe
 
 ![Reference image](reference.png)
 
+Also take note how easy it is to type `ls` and `cd`.
+
 ## Installation & Testing
 
 ### Linux
