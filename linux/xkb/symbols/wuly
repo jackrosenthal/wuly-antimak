@@ -18,8 +18,8 @@ xkb_symbols "basic" {
 	// Number row
 	// --------------------------------------------------------------
 	key <TLDE> {
-		[ Caps_Lock,                   asciitilde,              U21BB,                   U02DE                   ],
-		[ NoSymbol,                NoSymbol                  ]
+		[ ISO_Level3_Lock,                   Caps_Lock,              U21BB,                   U02DE                   ],
+		[ ISO_Level3_Lock,                ISO_Level3_Lock                  ]
 	};
 
 	key <AE01> {
