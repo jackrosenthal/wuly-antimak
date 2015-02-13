@@ -1,6 +1,8 @@
 # The WULY Antimak
 
-It's a keyboard layout.
+An ergonomic modifier based keyboard layout with Antibracket's symbols and numbers and a home row practically stolen from Colemak. Also focuses around ease of vimming and still optimised for the English language... so basically it's crack for your keyboard.
+
+![Reference image](reference.png)
 
 ## Installation & Testing
 
