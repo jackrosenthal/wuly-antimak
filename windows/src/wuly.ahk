@@ -4,7 +4,7 @@ SC00F::Escape
 SC010::w
 +SC010::W
 SC028 & SC010::Send {"}
-SC028 & SC010::Send {PgUp}
+SC035 & SC010::Send {PgUp}
 SC011::u
 +SC011::U
 SC028 & SC011::Send {_}
