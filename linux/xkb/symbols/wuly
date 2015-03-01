@@ -124,8 +124,8 @@ xkb_symbols "basic" {
 		[ NoSymbol,                NoSymbol                  ]
 	};
 	key <AD12> {
-		[ Control_L,             Control_L,              Control_L,             Control_L              ],
-		[ Control_L,                Control_L                  ]
+		[ Control_R,             Control_R,              Control_R,             Control_R              ],
+		[ Control_R,                Control_R                  ]
 	};
 
 	// Middle row
