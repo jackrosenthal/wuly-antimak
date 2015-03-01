@@ -1,3 +1,11 @@
+; Wuly Antimak Keyboard Layout for McRio$oft Windoze
+; github.com/jackrosenthal/wuly-antimak
+; Protip: put this in the startup folder of your start menu
+; and replace C:/Windows/System32/sethc.exe with this. (compiled)
+; Then you can enable it at login by pressing Shift 5 times.
+
+#Persistent
+#MaxHotkeysPerInterval 999999999
 +SC029::CapsLock
 
 SC00F::Escape
