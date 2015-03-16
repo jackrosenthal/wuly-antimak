@@ -1,3 +1,6 @@
+### Disclaimer
+Actually, the only reason this keyboard layout exists is because I did not want to learn a new home row from Colemak, and I really liked Antibracket's symbols. Warning advised.
+
 # The WULY Antimak
 
 An ergonomic modifier based keyboard layout with Antibracket's symbols and numbers and a home row practically stolen from Colemak. Also focuses around ease of vimming and still optimised for the English language... so basically it's crack for your keyboard.
