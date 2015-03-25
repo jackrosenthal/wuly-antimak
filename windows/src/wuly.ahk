@@ -112,6 +112,8 @@ SC032::k
 +SC032::K
 SC028 & SC032::Send {`%}
 SC035 & SC032::Send {1}
+SC033::v
++SC033::V
 SC028 & SC033::Send {\}
 SC035 & SC033::Send {2}
 SC034::Send {.}

@@ -224,7 +224,7 @@ xkb_symbols "basic" {
         [ 1,                       NoSymbol                  ]
     };
     key <AB08> {
-        [ backslash,               bar,                       backslash,               Greek_beta              ],
+        [ v,                       V,                       backslash,               Greek_beta              ],
         [ 2,                       NoSymbol                  ]
     };
     key.type[Group1] = "FOUR_LEVEL";
